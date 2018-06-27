@@ -21,6 +21,8 @@
 
   :source-paths ["src"]
 
+  :jvm-opts ["--add-modules" "java.xml.bind"]
+
   :cljsbuild {
     :builds [{:id "flappy-bird-demo"
               :source-paths ["src"]
